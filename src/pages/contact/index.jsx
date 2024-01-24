@@ -1,4 +1,5 @@
 import Curve from '@/components/Layout/Curve';
+import Stairs from '@/components/Layout/Stairs';
 import Head from 'next/head';
 
 export default function Contact() {
@@ -10,7 +11,7 @@ export default function Contact() {
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<Curve backgroundColor='#6E97D0'>
+			<Stairs backgroundColor='#6E97D0'>
 				<h1>Contact</h1>
 				<div className='body'>
 					<p>
@@ -31,7 +32,7 @@ export default function Contact() {
 						Vivamus ornare ex a nibh egestas, id euismod mi euismod.
 					</p>
 				</div>
-			</Curve>
+			</Stairs>
 		</>
 	);
 }

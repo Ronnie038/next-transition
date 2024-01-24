@@ -12,7 +12,7 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<Inner backgroundColor={'#B0AD98'}>
+			<Curve backgroundColor={'#B0AD98'}>
 				<h1>Home</h1>
 				<div className='body'>
 					<p>
@@ -39,7 +39,7 @@ export default function Home() {
 						laoreet ut volutpat sit amet, convallis et turpis.
 					</p>
 				</div>
-			</Inner>
+			</Curve>
 		</>
 	);
 }
